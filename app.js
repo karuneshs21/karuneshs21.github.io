@@ -2,7 +2,7 @@ function edit(element){
 	var tr = jQuery(element).parent().parent();
 	if(!tr.hasClass("editing")) {
 		tr.addClass("editing");
-		tr.find("DIV.td").each(function(){
+		tr.find("DIV.td").not('Best in Show').each(function(){
 			if(!jQuery(this).hasClass("action")){
 				var value = jQuery(this).text();
 				jQuery(this).text("");
