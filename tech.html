@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+		<title>Slime Website</title>
+		<link rel="stylesheet" href="styles.css">
+
+	
+		
+	</head>
+
+	<body>
+		
+		<h1>Vote on your favorite slimes!</h1>
+		<nav class="navbar">
+			<div class="navbar__container">
+				<a href="/" id="navbar__logo">Contents</a>
+				<div class="navbar__toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul class="navbar__menu">
+					<li class="navbar__item">
+						<a href="/" class="navbar__links">Home</a>
+					</li>
+					<li class="navbar__item">
+						<a href="/vote.html" class="navbar__links">Voting Details</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<em>Please give each participant's slime a score from 0 to 5 for each category. Decimals are allowed</em>
+		<div class="table">
+			<div class="thead">
+				<div class="tr">
+					<div class="td">Erin</div>
+					<div class="td">Alexis</div>
+					<div class="td">Vivian</div>
+					<div class="td">Ariella</div>
+					<div class="td"></div>
+				</div>
+			</div>
+			<div class="tbody">
+				<form class="tr" method="post" action="https://script.google.com/macros/s/AKfycbzGOuL3PRlqEBm0YdEc88N8BtCh3Ix3c3c2NHL6BN9xfcN796sXBDuaAwVl0jSnttOKhw/exec" name="row-one">
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td action"><button type="button" onclick="edit(this);">edit</button></div>
+					<em>Best in Show</em>
+				</form>
+				<form class="tr">
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td action"><button type="button" onclick="edit(this);">edit</button></div>
+					<em>Slimey Slime</em>
+				</form>
+				<form class="tr">
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td action"><button type="button" onclick="edit(this);">edit</button></div>
+					<em>Tasty Slime</em>
+				</form>
+				<form class="tr">
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td">0</div>
+					<div class="td action"><button type="button" onclick="edit(this);">edit</button></div>
+					<em>Pretty Slime</em>
+				</form>
+			</div>
+		</div>
+		<em>Hit submit when you're done</em>
+		<div class="td action"><button type="button" onclick="submit(this);">submit</button></div>
+		<em>Thanks for voting!</em>	
+		
+
+		<div class="container">
+			<form method="post" action="https://script.google.com/macros/s/AKfycbzGOuL3PRlqEBm0YdEc88N8BtCh3Ix3c3c2NHL6BN9xfcN796sXBDuaAwVl0jSnttOKhw/exec" name="contact-form">
+			  <h4>Best in Show</h4>
+
+			  <label for="Alexis">Name</label> 
+			  <input type="text" name="Alexis" placeholder="Alexis's Score">
+			  <label for="Ariella">Name</label> 
+			  <input type="text" name="Ariella" placeholder="Ariella's Score">
+			  <label for="Erin">Name</label> 
+			  <input type="text" name="Erin" placeholder="Erin's Score">
+			  <label for="vivian">Name</label> 
+			  <input type="text" name="Vivian" placeholder="Vivian's Score">
+			  </textarea>
+			  <input type="submit" value="Submit" id="submit">
+				</form>
+			</div>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="forms.js"></script>
+	</body>
+</html>
+
+<form> 
+	<label for="name">Name</label> 
+	<input type="text" id="name" /> 
+	<label for="email">Email</label> 
+	<input type="email" id="email" /> 
+	<label for="telnum">Tel No.</label> 
+	<input type="telnum" id="telnum" /> 
+	<label for="Roll No.">Roll No.</label> 
+	<input type="number" id="rollno" /> 
+</form> 
