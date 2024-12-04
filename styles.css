@@ -1,3 +1,4 @@
+* {background-color: rgba(255, 208, 0, 0.781)}
 .table
 {
 	display:table;
@@ -30,9 +31,19 @@
 	width:100px;
 }
 h1 {
-	color:red;
+	color:rgb(0, 255, 225);
+	font-family: fantasy;
+}
+h4{
+	color: rgb(173, 165, 253);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-variant: small-caps;
+	font-weight: bolder;
 }
 
 p {
 	white-space: pre;
+	color:rgb(209, 10, 199);
+	font-family: 'Courier New', Courier, monospace, sans-serif;
+	size: 0cqh;
   }
