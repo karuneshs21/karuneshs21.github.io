@@ -1,5 +1,7 @@
-* {background-color: rgba(255, 208, 0, 0.781)}
-.table
+* {background-color: rgba(255, 255, 255, 0.447);
+	color: rgb(249, 187, 0) }
+
+/*.table
 {
 	display:table;
 	border-collapse:separate;
@@ -10,7 +12,7 @@
 	display:table-header-group;
 	color:white;
 	font-weight:bold;
-	background-color:blue;
+	background-color:rgb(4, 255, 0);
 }
 .tbody
 {
@@ -29,13 +31,13 @@
 .tr.editing .td INPUT
 {
 	width:100px;
-}
+}*/
 h1 {
-	color:rgb(0, 255, 225);
+	color:rgb(255, 149, 0);
 	font-family: fantasy;
 }
 h4{
-	color: rgb(173, 165, 253);
+	color: rgb(239, 179, 191);
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-variant: small-caps;
 	font-weight: bolder;
@@ -43,7 +45,43 @@ h4{
 
 p {
 	white-space: pre;
-	color:rgb(209, 10, 199);
+	color:rgba(209, 10, 199, 0.032);
 	font-family: 'Courier New', Courier, monospace, sans-serif;
-	size: 0cqh;
+  }
+
+h5 {
+	color:rgb(0, 251, 255);
+}
+
+
+input[type=text], select {
+	width: 100%;
+	padding: 4px 20px;
+	margin: 2px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  
+input[type=number], select {
+	width: 100%;
+	padding: 4px 20px;
+	margin: 2px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	box-sizing: border-box;
+  }
+  
+input[type=submit] {
+	width: 30%;
+	background-color: forestgreen;
+	display: inline-block;
+	color: wheat;
+	padding: 4px 20px;
+	margin: 2px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
   }

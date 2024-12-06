@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+		<title>Slime Website</title>
+		<link rel="stylesheet" href="styles.css">
+
+
+		
+	</head>
+
+	<body>
+
+        <div id="CSVTable"></div>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>  
+<script src="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/jquerycsvtotable/jquery.csvToTable.js"></script>
+
+<script>
+$(function() {
+  //$('#CSVTable').CSVToTable('slimeresults.csv'); 
+  //$('#CSVTable').CSVToTable('emptyresults.csv'); 
+  $('#CSVTable').CSVToTable('emptyresults.csv');
+});
+</script>
+
+    </body>
