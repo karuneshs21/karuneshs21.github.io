@@ -1,4 +1,4 @@
-* {background-color: rgba(255, 255, 255, 0.447);
+* {background-color: rgb(255, 255, 255);
 	color: rgb(249, 187, 0) }
 
 /*.table
@@ -33,10 +33,10 @@
 	width:100px;
 }*/
 h1 {
-	color:rgb(255, 149, 0);
+	color:rgb(64, 255, 0);
 	font-family: fantasy;
 }
-h4{
+h3{
 	color: rgb(239, 179, 191);
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-variant: small-caps;
@@ -50,5 +50,5 @@ p {
   }
 
 h5 {
-	color:rgb(0, 251, 255);
+	color:rgb(148, 13, 13);
 }

@@ -4,43 +4,43 @@
 		<meta charset="UTF-8">
 		<meta name="viewport"
 		content="width=device-width, initial-scale=1.0">
-		<title>Slime Website</title>
+		<title>Slime</title>
 		<link rel="stylesheet" href="styles.css">
 
 
 		<style>
 			
-input[type=text], select {
-	width: 100%;
-	padding: 4px 20px;
-	margin: 2px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-  }
-  
-input[type=number], select {
-	width: 100%;
-	padding: 4px 20px;
-	margin: 2px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 1px;
-	box-sizing: border-box;
-  }
-  
-input[type=submit] {
-	width: 30%;
-	background-color: forestgreen;
-	display: inline-block;
-	color: wheat;
-	padding: 4px 20px;
-	margin: 2px 0;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-  }
+			input[type=text], select {
+				width: 100%;
+				padding: 4px 20px;
+				margin: 2px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			
+			input[type=number], select {
+				width: 100%;
+				padding: 4px 20px;
+				margin: 2px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 1px;
+				box-sizing: border-box;
+			}
+			
+			input[type=submit] {
+				width: 30%;
+				background-color: forestgreen;
+				display: inline-block;
+				color: wheat;
+				padding: 4px 20px;
+				margin: 2px 0;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
 		</style>
 	</head>
 
@@ -60,18 +60,24 @@ input[type=submit] {
 						<a href="/" class="navbar__links">Home</a>
 					</li>
 					<li class="navbar__item">
-						<a href="/vote.html" class="navbar__links">Voting Details</a>
+						<a href="/vote.html" class="navbar__links">How your vote is calculated</a>
+					</li>
+					<li class="navbar__item">
+						<a href="/guidelines.html" class="navbar__links">Guidelines for Voting</a>
+					</li>
+					<li class="navbar__item">
+						<a href="/results.html" class="navbar__links">Election Results</a>
 					</li>
 					<li class="navbar__item">
 						<a href="/sillybilly.html" class="navbar__links">Silly Billy</a>
 					</li>
 					<li class="navbar__item">
-						<a href="/results.html" class="navbar__links">Election Results</a>
+						<a href="/pictures.html" class="navbar__links">Cat Pics</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-		<h4>Voting Rules for Thee</h4>
+		<h3>Voting Rules for Thee</h3>
 		<h5>Please give each participant's slime a score from 0 to 10 for each category</h5h5>
 		<h5>Everyone gets one vote per category using their password.
 If you vote for the same category multiple times, all your votes will be thrown out!</h5>
@@ -87,7 +93,7 @@ If there are too many of them, this voting website will be shut down for everyon
 
 		<div class="container">
 			<form method="post" action="https://script.google.com/macros/s/AKfycbzGOuL3PRlqEBm0YdEc88N8BtCh3Ix3c3c2NHL6BN9xfcN796sXBDuaAwVl0jSnttOKhw/exec" name="contact-form">
-			  <h4>Happy Voting!</h4>
+			  <h3>Happy Voting!</h3>
 
 			  <label for="password">Password</label> 
 			  <input type="text" id="password" name="password" placeholder="Your unique password" required>
