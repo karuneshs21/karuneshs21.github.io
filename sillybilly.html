@@ -1,54 +1,54 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport"
 		content="width=device-width, initial-scale=1.0">
-		<title>Billy's Corner of Silliness</title>
+        <title>Billy's Corner of Silliness</title>
         <img src="images/sillybilly.jpg" alt="images" width="300"> 
 		<link rel="stylesheet" href="styles.css">
 
-	    <style>
 
-input[type=text], select {
-  width: 100%;
-  padding: 4px 20px;
-  margin: 2px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type=number], select {
-  width: 100%;
-  padding: 4px 20px;
-  margin: 2px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 1px;
-  box-sizing: border-box;
-}
-
-input[type=submit] {
-  width: 10%;
-  background-color: forestgreen;
-  display: inline-block;
-  color: wheat;
-  padding: 4px 20px;
-  margin: 2px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+		<style>
+			
+			input[type=text], select {
+				width: 100%;
+				padding: 4px 20px;
+				margin: 2px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			
+			input[type=number], select {
+				width: 100%;
+				padding: 4px 20px;
+				margin: 2px 0;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 1px;
+				box-sizing: border-box;
+			}
+			
+			input[type=submit] {
+				width: 30%;
+				background-color: forestgreen;
+				display: inline-block;
+				color: wheat;
+				padding: 4px 20px;
+				margin: 2px 0;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
 		</style>
-
-		
 	</head>
 
 	<body>
 		
-		<h1>Vote on your favorite slimes!</h1>
+		<h1>Billy's Corner of Silliness</h1>
 		<nav class="navbar">
 			<div class="navbar__container">
 				<a href="/" id="navbar__logo">Contents</a>
@@ -57,46 +57,51 @@ input[type=submit] {
 					<span class="bar"></span>
 					<span class="bar"></span>
 				</div>
-				<ul class="navbar__menu">
+				<ul class="navbar__menu">	
 					<li class="navbar__item">
-						<a href="/" class="navbar__links">Home</a>
-					</li>
-					<li class="navbar__item">
-						<a href="/vote.html" class="navbar__links">Voting Details</a>
-					</li>
-					<li class="navbar__item">
-						<a href="/sillybilly.html" class="navbar__links">Silly Billy</a>
+						<a href="/froot.html" class="navbar__links">froot</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-		<p>Billy here. Voting restrictions are lame. Give me as many votes as you can!!!!</p>
-	
-		
+		<h3>Billy here. Voting restrictions are lame. Give me as many votes as you can!!!!</h3>
 
 		<div class="container">
-			<form method="post" action="" name="bogus">
-			  <h4>Happy Voting!</h4>
+			<form method="post" action="https://script.google.com/macros/s/AKfycbzGOuL3PRlqEBm0YdEc88N8BtCh3Ix3c3c2NHL6BN9xfcN796sXBDuaAwVl0jSnttOKhw/exec" name="contact-form">
+			  <h3>Happy Voting!</h3>
 
               <label for="silly">Message for Billy</label> 
 			  <input type="text" id="silly" name="silly" placeholder="Tell me your deepest darkest secret!">
 			  <label for="password">Password</label> 
-			  <input type="text" id="password" name="password" placeholder="Your unique password">
+			  <input type="text" id="password" name="password" placeholder="Your unique password" required>
 			  <label for="category">Select a category:</label>
 				<select id="category" name="category">
   				<option value="best">Best in Show</option>
   				<option value="slimey">Slimey Slime</option>
-  				<option value="pretty">Pretty Slime</option>
   				<option value="tasty">Tasty Slime</option>
+  				<option value="pretty">Pretty Slime</option>
+				<option value="holiday">Most Holiday</option>
+				<option value="coach">Coach's Award</option>
+				<option value="most">Most Slime</option>
+				<option value="strangest">Strangest Slime</option>
+				<option value="funnest">Funnest Slime (Most fun to play with)</option>
 				</select>
 			  <label for="alexis">Alexis</label> 
-			  <input type="number" id="alexis" name="alexis" min="0" max="10" value="0">
+			  <input type="number" id="alexis" name="alexis" min="0" max="10" required>
 			  <label for="ariella">Ariella</label> 
-			  <input type="number" id="ariella" name="ariella" min="0" max="10" value="0">
+			  <input type="number" id="ariella" name="ariella" min="0" max="10" required>
+              <label for="billy">Billy</label> 
+              <input type="number" id="billy" name="billy" min="0" max="10" required>
+              <label for="daisy">Daisy</label> 
+			  <input type="number" id="daisy" name="daisy" min="0" max="10" required>
 			  <label for="erin">Erin</label> 
-			  <input type="number" id="erin" name="erin" min="0" max="10" value="0">
+			  <input type="number" id="erin" name="erin" min="0" max="10" required>
+			  <label for="goopliano">Goopliano</label> 
+			  <input type="number" id="goopliano" name="goopliano" min="0" max="10" required>
+			  <label for="rocky">Rocky</label> 
+			  <input type="number" id="rocky" name="rocky" min="0" max="10" required>
 			  <label for="vivian">Vivian</label> 
-			  <input type="number" id="vivian" name="vivian" min="0" max="10" value="0">
+			  <input type="number" id="vivian" name="vivian" min="0" max="10" required>
 			  <input type="submit" value="Submit" id="submit">
 			  <em>Hit submit when you're done</em>
 
@@ -107,9 +112,13 @@ input[type=submit] {
 
         <h5>Here is my pet slime. His name is Goopliano.</h5>
         <img src="images/greenmonster.jpg" alt="images" width="300"> 
+        <h5>Also say Hi to my dogs Rocky and Daisy. Daisy ate a bee.</h5>
+        <img src="images/rocky.jpg" alt="images" width="150">
+        <img src="images/daisy.jpg" alt="images" width="200">
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="forms.js"></script>
 	</body>
 </html>
+
 
