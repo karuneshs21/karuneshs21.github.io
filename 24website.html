@@ -63,22 +63,22 @@
 						<a href="/vote.html" class="navbar__links">How your vote is calculated</a>
 					</li>
 					<li class="navbar__item">
-						<a href="/25guidelines.html" class="navbar__links">Guidelines for Voting</a>
+						<a href="/guidelines.html" class="navbar__links">Guidelines for Voting</a>
 					</li>
 					<li class="navbar__item">
-						<a href="/25results.html" class="navbar__links">Election Results</a>
+						<a href="/results.html" class="navbar__links">Election Results</a>
 					</li>
 					<li class="navbar__item">
-						<a href="/25previous.html" class="navbar__links">Previous Editions</a>
+						<a href="/previous.html" class="navbar__links">Previous Editions</a>
 					</li>
+					<li class="navbar__item">
+						<a href="/sillybilly.html" class="navbar__links">Silly Billy</a>
+					</li>			
 					<li class="navbar__item">
 						<a href="/froot.html" class="navbar__links">froot</a>
 					</li>
 					<li class="navbar__item">
 						<a href="/pictures.html" class="navbar__links">Cat Pics</a>
-					</li>
-					<li class="navbar__item">
-						<a href="/24website.html" class="navbar__links">Slime 2024 website (archived)</a>
 					</li>
 				</ul>
 			</div>
@@ -98,7 +98,7 @@ If there are too many of them, this voting website will be shut down for everyon
 		
 
 		<div class="container">
-			<form method="post" action="https://script.google.com/macros/s/AKfycbzGOuL3PRlqEBm0YdEc88N8BtCh3Ix3c3c2NHL6BN9xfcN796sXBDuaAwVl0jSnttOKhw/exec" name="contact-form">
+			<form method="GET" action="closedsubmit.html" >
 			  <h3>Happy Voting!</h3>
 
 			  <label for="password">Password</label> 
@@ -106,12 +106,14 @@ If there are too many of them, this voting website will be shut down for everyon
 			  <label for="category">Select a category:</label>
 				<select id="category" name="category">
   				<option value="best">Best in Show</option>
-  				<option value="innovative">Nissan Slime (most innovative)</option>
-  				<option value="tasty">James Beard Slime (tastes best)</option>
-  				<option value="extreme">X Games Slime (most extreme)</option>
-				<option value="pretty">America's Next Top Model Slime (prettiest)</option>
-				<option value="bob">Bob Slime (most thanksgiving / holiday spirit)</option>
-				<option value="playdoh">Play-Doh+ Slime (it's fun to play AND to eat)</option>
+  				<option value="slimey">Slimey Slime</option>
+  				<option value="tasty">Tasty Slime</option>
+  				<option value="pretty">Pretty Slime</option>
+				<option value="holiday">Most Holiday</option>
+				<option value="coach">Coach's Award</option>
+				<option value="most">Most Slime</option>
+				<option value="strangest">Strangest Slime</option>
+				<option value="funnest">Funnest Slime (Most fun to play with)</option>
 				</select>
 			  <label for="alexis">Alexis</label> 
 			  <input type="number" id="alexis" name="alexis" min="0" max="10" required>
@@ -119,10 +121,14 @@ If there are too many of them, this voting website will be shut down for everyon
 			  <input type="number" id="ariella" name="ariella" min="0" max="10" required>
 			  <label for="erin">Erin</label> 
 			  <input type="number" id="erin" name="erin" min="0" max="10" required>
-			  <label for="lucie">Lucie</label> 
-			  <input type="number" id="lucie" name="lucie" min="0" max="10" required>
+			  <label for="justy">Justy</label> 
+			  <input type="number" id="justy" name="justy" min="0" max="10" required>
+			  <label for="maya">Maya</label> 
+			  <input type="number" id="maya" name="maya" min="0" max="10" required>
 			  <label for="sam">Sam</label> 
 			  <input type="number" id="sam" name="sam" min="0" max="10" required>
+			  <label for="susanreilly">Susan&Reilly</label> 
+			  <input type="number" id="susanreilly" name="susanreilly" min="0" max="10" required>
 			  <label for="vivian">Vivian</label> 
 			  <input type="number" id="vivian" name="vivian" min="0" max="10" required>
 			  <input type="submit" value="Submit" id="submit">
@@ -135,7 +141,6 @@ If there are too many of them, this voting website will be shut down for everyon
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="forms.js"></script>
-		<!--the javascript function form.js gets run when the submit button is pressed. inside that file is the macro that sends the data to the sheets-->
 	</body>
 </html>
 
